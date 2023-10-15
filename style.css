@@ -1,0 +1,152 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Fugaz+One&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root{
+  --purple:rgb(174, 0, 255);
+}
+span{
+  color: var(--purple);
+}
+.son{
+  background-color: white;
+}
+body{
+background-image: url(img/bg.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+.son{
+  margin: 150px;
+}
+/* .father{ */
+  /* position:absolute; */
+  /* top: 0; */
+ /* background-image: url(img/bg.jpg); */
+ /* background-size: cover; */
+ /* z-index: 2; */
+ /* overflow: hidden; */
+ /* } */
+  /* .father{
+  background-image: url(img/bg.jpg);
+  z-index: 2;
+
+}  */
+header{
+  padding: 50px;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+}
+nav h3{
+  margin-left: 66px;
+}
+nav h4{
+  margin-right: 66px;
+}
+.son .container{
+  /* z-index: 1; */
+/* overflow: hidden; */
+  display: grid;
+  grid-template-columns: 53% 47%; 
+}
+.container .image-container{
+  margin: 0px 60px;
+}
+.container .welcome{
+  margin: 10px;
+}
+
+
+
+.container .welcome .heading h1{
+font-size: 55px;
+font-family: 'Fugaz One', sans-serif;
+}
+.container .welcome .heading h4{
+  font-size: 20px;
+  color: grey;
+}
+
+
+.bx{
+  margin-top: 50px;
+}
+#mail{
+  border-color: var(--purple);
+}
+#mail,#pass{
+margin: 20px 0;
+width: 400px;
+padding: 10px 15px;
+font-weight: bold;
+
+}
+
+
+.bt{
+  margin: 36px 82px 13px -8px;
+  display: grid;
+  grid-template-columns: 40% 60%;
+
+}
+
+.bt .b1{
+  padding: 0px 59px;
+  border-radius: 44px;
+  border: none;
+  background-color: var(--purple);
+  color: white;
+  font-weight: bold;
+  margin-right: 20px;
+}
+.bt .b2{
+  padding: 23px 48px;
+  border-radius: 28px;
+  border: none;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+}
+/* footer .foot{
+  margin: 0px 548px 43px 570px;
+  display: flex;
+  justify-content: space-between;
+position: relative  
+left;
+
+}  */
+
+footer .foot{
+  
+  display: flex;
+flex-direction: row;
+/* position: relative; */
+
+}
+footer .foot{
+position: relative;
+left: 536px;
+/* margin: 50px 0px; */
+}
+.A,.B,.C{
+  margin: 0px 50px;
+  display: inline-block;
+  padding: 0px 0px 100px 0px;
+}
+
+
+
+
+
+
+
+
+
+
